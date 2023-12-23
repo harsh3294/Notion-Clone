@@ -5,6 +5,7 @@ import { ChevronsLeft, MenuIcon } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import { ElementRef, useEffect, useRef, useState } from "react";
 import { useMediaQuery } from "usehooks-ts";
+import { UserItem } from "./user-item";
 export const Navigation = () => {
   const router = useRouter();
   const pathname = usePathname();
@@ -105,7 +106,12 @@ export const Navigation = () => {
         >
           <ChevronsLeft className="h-6 w-6" />
         </div>
-
+        <div>
+          <UserItem />
+          {/* <Item label="Search" icon={Search} isSearch onClick={search.onOpen} />
+          <Item label="Settings" icon={Settings} onClick={settings.onOpen} />
+          <Item onClick={handleCreate} label="New page" icon={PlusCircle} /> */}
+        </div>
         <div
           onMouseDown={handleMouseDown}
           onClick={resetWidth}
