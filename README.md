@@ -1,6 +1,6 @@
 # Fullstack Notion Clone: Next.js 14, React, Convex, Tailwind, Edgestore.
 
-This is a repository for Fullstack Notion Clone: Next.js 14, React, Convex, Tailwind | Full Course 2023
+This is a repository for Fullstack Notion Clone: Next.js 14, React, Convex, Tailwind, EdgeStore
 
 # Project Features and Specifications
 
@@ -79,7 +79,7 @@ Deleted files can be recovered from the trash can, providing users with the abil
 ### Cloning the repository
 
 ```shell
-**gi**t clone https://github.com/harsh3294/Notion-Clone.git
+git clone https://github.com/harsh3294/Notion-Clone.git
 ```
 
 ### Install packages
